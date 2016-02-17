@@ -1,0 +1,180 @@
+## Login
+current:
+  first_name: Franco
+  last_name: Gambale
+  suffix: Mr.
+  email: fg@gambale.com
+  address: 123 CleanSweep Lane
+  address2: Suite MI90
+  country: United States
+  nationality_country: United States
+  state_prov: California 
+  city: San Francisco
+  postal_code: 90210
+  phone: 310-341-9185
+  cell_phone: 323-883-3687
+  ssn: 987-65-4321
+  email_langs_id: English
+  dob: April 15, 1971
+valid:
+  usernameTextField: apps@riis.com
+  passwordTextField: JKL
+invalid:
+  usernameTextField: apps@riis.com
+  passwordTextField: GDDDHI
+blank:
+  usernameTextField: ''
+  passwordTextField: GDDDHI
+carmbruster:
+  usernameTextField: carmbruster@riis.com
+  passwordTextField: Driver88
+lbomma:
+  usernameTextField: lbomma@riis.com
+  passwordTextField: password1$A
+pmoon:
+  usernameTextField: pmoon@riis.com
+  passwordTextField: DEF
+calabash:
+  usernameTextField: apps@riis.com
+  passwordTextField: JKL
+private_user:
+  usernameTextField: carmbruster4507@yahoo.com
+  passwordTextField: 1Driver88&
+bizwhiz:
+  usernameTextField: bizagi@riis.com
+  passwordTextField: 1Driver88&
+waynegee211:
+  usernameTextField: WG@dubGeezy.com
+  passwordTextField: Qwertyuiop123!
+wgerard211:
+  usernameTextField: waynegee@hotmail.com
+  passwordTextField: Asdfghjkl321#
+wmilton:
+  usernameTextField: wmilton@riis.com
+  passwordTextField: Zxcvbnmnbvcxz987&&
+blocked_user:
+  usernameTextField: waynegee@hotmail.com
+  passwordTextField: Asdfghjkl321#
+## Reset Password
+reset_email:
+  resetPasswordField: carmbruster@riis.com
+noncliq_email:
+  resetPasswordField: carmbruster@riis.con
+## Posts
+calabash_48_test:
+  postTextView: "Calabash 48 hour test post"
+calabash_perm_test:
+  postTextView: "Calabash Permanent test post"
+calabash_5sec_test:
+  postTextView: "Calabash 5 Second test post"
+calabash_other_test:
+  postTextView: "Calabash test post for Other reporting"
+calabash_bully_test:
+  postTextView: "Calabash test post for Bully reporting"
+calabash_threat_test:
+  postTextView: "Calabash test post for Threat reporting" 
+calabash_inappro_other_test:
+  postTextView: "Calabash test post for Inappropriate Other reporting" 
+calabash_cheer_test:
+  postTextView: "Calabash Cheer post"
+calabash_comments_test:
+  postTextView: "Calabash Comments test"
+calabash_comments_test2:
+  postTextView: "Calabash Report/Delete Comments test"
+calabash_tagcomments_test:
+  postTextView: "Calabash Tag Users in Comments test"
+calabash_notification_test:
+  postTextView: "Calabash Notifications test"
+calabash_tag_test:
+  postTextView: "Calabash Tagging test"
+calabash_hashtag_test:
+  postTextView: "#rockandroll Calabash Hashtag post number one"
+calabash_hashtag_feed_test:
+  postTextView: "#rockandroll Calabash post number two"
+calabash_trending_test:
+  postTextView: "Calabash Feed test.  My Trending Feed. 3 Cheers for this post"
+calabash_mostrecent_test:
+  postTextView: "Calabash Feed test.  This is most recent"
+delete_test:
+  postTextView: "Delete Post test"
+local_location:
+  location: "Detroit, MI"
+encore_text:
+  encoreText: "This is encore text for 5 second post"
+
+  ## Registration
+valid_email:
+  textField1: "bizagi@riis.com"
+valid_email2:
+  textField2: "bizagi@riis.com"
+invalid_email:
+  textField1: "jdaoe.yahoo.com"
+blank_email:
+  textField1: ""
+blank_email2:
+  textField2: "m" 
+nonmatching_email:
+  textField1: "jon_doe@yahoo.com"
+nonmatching_email2:
+  textField2: "john_doe@yahoo.com"
+inuse_email:
+  textField1: "apps@riis.com"
+inuse_email2:
+  textField2: "apps@riis.com"
+nonexisting_email:
+  textField1: "bizagi204@riis.com"
+nonexisting_email2:
+  textField2: "bizagi204@riis.com"
+valid_password:
+  textField1: "1Driver88&"
+valid_password2:
+  textField2: "1Driver88&"
+invalid_password:
+  textField1: "yahooDotCom$"
+nonmatching_password:
+  textField1: "1yahooDotCom$"
+nonmatching_password2:
+  textField2: "1yahooDot$Com"
+valid_fullname:
+  textField1: "Biz The Man"
+valid_username:
+  textField2: "bizwhiz"
+blank_fullname:
+  textField1: ""
+blank_username:
+  textField2: ""
+invalid_username:
+  textField2: "MyUserName"
+current_username:
+  textField2: "calabash"
+random_username:
+  textField2: ~characters(10)
+## Comments
+view_long_comments:
+  postText: "This is a long comment to verify that we can see the whole comment and not just part of the comment or some of the comment but all of the comment.  The End."
+## Edit Profile
+in_use_email:
+  EmailField: "apps@riis.com"
+new_fullname: 
+  fullNameField: "Wayne Milton"
+new_email:
+  EmailField: "waynegerard211@gmail.com"
+old_fullname:
+  fullNameField: "Wayne Geezy"
+old_email:
+  EmailField: "WG@dubGeezy.com"
+## Groups
+bizwhiz_group_one:
+  textField: "Biz whiz Group One"
+calabash_group_blank:
+  textField: ""
+calabash_group_two:
+  textField: "The Bugaloos"
+bizwhiz_group_two:
+  textField: "Biz whiz Group Two"
+calabash_group_one:
+  textField: "The Cliqbitters"
+calabash_group_three:
+  textField: "The New Group"
+calabash_group_four:
+  textField: "The Deletion Group"
